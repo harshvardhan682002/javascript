@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bank</title>
+        <meta charset="UTF-8" />
+    </head>
+<a href="bank.css"></a>
+    <body>
+        <div id ="app">
+            <h1>BANK</h1>
+            <h4>YOUR BALANCE IS: Rs <span id="Balance">0</span></h4>
+          <div>
+             <input id="deposited_amount" type="number" placeholder="Enter deposited amount" />
+             <input type ="button" value="Deposit" onclick="addAmount()" />
+             <input id="withdraw_amount" type="number" placeholder="Enter withdraw amount" />
+             <input type ="button" value="withdraw" onclick="substractAmount()" />
+          </div>
+        </div>  
+        <script src="bank.js"></script>
+    </body>
+</html>
