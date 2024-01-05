@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    </head>
+    <body>
+        <i class="fa- fa-circle"></i>
+        <p id="nameInput">hello</p>
+        <h2>DASHBOARD</h2>
+        <h4>YOUR BALANCE IS: Rs <span id="Balance"></span></h4>
+        <input id="Enter amount" type = "number" placeholder="Enter amount" />
+        <input type ="button" value="Deposit" onclick="deposit()" /> 
+        <input type ="button" value="withdraw" onclick="withdraw()" />
+        <h3>Transactions</h3>
+        <table id="transactionTable">
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Amount</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody id="transactionBody">
+            </tbody>
+          </table>
+        <script src="login.js"></script>
+        <script src="deposit.js"></script>    
+    </body>
+</html>
